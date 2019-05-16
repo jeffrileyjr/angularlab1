@@ -1,0 +1,68 @@
+h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+p {
+  margin-left: 10px;
+  margin-top: -25px;
+}
+.todo_box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  padding: 10px;
+  width: 75vw;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  Box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+input {
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #bbb;  
+}
+input:hover {
+  background-color: #eee;
+}
+.material-icons {
+  float: right;
+}
+ol {
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+li {
+  margin-left: 20px;
+  width: 70vw;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+button.complete {
+  background-color: #fff;
+  color: #ff69b4;
+  border: solid 1px #ff69b4;
+  width: auto;
+  display: inline-block;
+}
+button.complete:hover {
+  color: #ff0000;
+  border: solid 1px #ff0000;
+}
+button {
+  background-color: #ff69b4;
+  color: #eee;
+  width: 99%;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
